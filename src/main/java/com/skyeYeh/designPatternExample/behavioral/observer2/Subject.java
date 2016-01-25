@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.observer;
+package com.skyeYeh.designPatternExample.behavioral.observer2;
 
 import java.util.ArrayList;
 import java.util.List;

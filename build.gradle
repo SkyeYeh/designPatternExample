@@ -5,7 +5,6 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 sourceCompatibility = 1.5
-mainClassName = 'com.skyeYeh.designPatternExample.observer.Subject'
 
 repositories {
     mavenCentral()
