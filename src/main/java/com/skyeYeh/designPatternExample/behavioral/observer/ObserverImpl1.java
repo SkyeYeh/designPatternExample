@@ -4,7 +4,7 @@ package com.skyeYeh.designPatternExample.behavioral.observer;
  * Created by Skye on 2016/1/25.
  * 觀察者。
  */
-public class ObserverImpl implements Observer {
+public class ObserverImpl1 implements Observer {
     private Subject subject;
     private String foobar1;
     private String foobar2;
@@ -14,7 +14,7 @@ public class ObserverImpl implements Observer {
      *
      * @param subject 主題。
      */
-    public ObserverImpl(Subject subject) {
+    public ObserverImpl1(Subject subject) {
         this.subject = subject;
         subject.registerObserver(this);
     }
@@ -29,6 +29,5 @@ public class ObserverImpl implements Observer {
     public void update(String foobar1, String foobar2) {
         this.foobar1 = foobar1;
         this.foobar2 = foobar2;
-        System.out.println(subject + " " + this.foobar1 + " " + this.foobar2);
     }
 }
