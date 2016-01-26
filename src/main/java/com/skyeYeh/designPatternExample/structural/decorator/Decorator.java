@@ -2,7 +2,7 @@ package com.skyeYeh.designPatternExample.structural.decorator;
 
 /**
  * Created by Skye on 2016/1/25.
- * 裝飾者。
+ * 抽象裝飾者。
  */
 public abstract class Decorator extends Component {
     /**
