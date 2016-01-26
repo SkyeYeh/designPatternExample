@@ -6,14 +6,15 @@ package com.skyeYeh.designPatternExample.creational.abstractFactory;
  */
 public interface AbstractFactory {
     /**
-     * 建立產品A。
+     * 抽象工廠建立產品A。
      *
+     * @param type 產品種類
      * @return 產品A
      */
-    public ProductA CreateProductA();
+    public ProductA CreateProductA(String type);
 
     /**
-     * 建立產品B。
+     * 抽象工廠建立產品B。
      *
      * @return 產品B
      */
