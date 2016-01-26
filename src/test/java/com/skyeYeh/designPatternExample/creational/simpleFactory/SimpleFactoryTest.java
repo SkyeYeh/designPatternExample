@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * Created by Skye on 2016/1/26.
- * 簡單工廠模式單元測試。
+ * 簡單工廠。
  */
 public class SimpleFactoryTest {
     SimpleFactory simpleFactory;

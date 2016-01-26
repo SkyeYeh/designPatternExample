@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * Created by Skye on 2016/1/26.
- * 工廠方法模式單元測試。
+ * 工廠方法模式，定義了一個建立物件的介面，但由次類別決定要實體化的類別為何者。工廠方法讓類別把實體化的動作，交由次類別進行。
  */
 public class CreatorTest {
     Creator creator;

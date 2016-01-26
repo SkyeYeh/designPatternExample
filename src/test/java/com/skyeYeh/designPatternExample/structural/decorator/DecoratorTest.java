@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * Created by Skye on 2016/1/26.
- * 裝飾者模式單元測試。
+ * 裝飾者模式，動態地將責任加諸於物件上。若要擴充功能，裝飾者提供了比繼承更有彈性的選擇。
  */
 public class DecoratorTest {
     Component component1;
