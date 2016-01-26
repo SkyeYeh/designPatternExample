@@ -6,7 +6,7 @@ package com.skyeYeh.designPatternExample.creational.factoryMethod;
  */
 public class CreatorImpl extends Creator {
     /**
-     * 實作工廠方法。
+     * 實作工廠方法建立產品。
      *
      * @param type 產品種類
      * @return 產品

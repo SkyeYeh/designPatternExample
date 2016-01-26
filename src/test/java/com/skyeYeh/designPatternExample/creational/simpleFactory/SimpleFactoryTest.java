@@ -10,19 +10,17 @@ import org.junit.Test;
  */
 public class SimpleFactoryTest {
     SimpleFactory simpleFactory;
-    ProductStore productStore;
 
     @Before
     public void setUp() throws Exception {
         simpleFactory = new SimpleFactory();
-        productStore = new ProductStore(simpleFactory);
     }
 
     @Test
     public void testCreateProduct() throws Exception {
-        Product productImpl1 = productStore.orderProduct("productImpl1");
+        Product productImpl1 = simpleFactory.createProduct("productImpl1");
         Assert.assertEquals("foobar1", productImpl1.foobar());
-        Product productImpl2 = productStore.orderProduct("productImpl2");
+        Product productImpl2 = simpleFactory.createProduct("productImpl2");
         Assert.assertEquals("foobar2", productImpl2.foobar());
     }
 }

@@ -18,9 +18,9 @@ public class CreatorTest {
 
     @Test
     public void testFactoryMethod() throws Exception {
-        Product productImpl1 = creator.orderProduct("productImpl1");
+        Product productImpl1 = creator.factoryMethod("productImpl1");
         Assert.assertEquals("foobar1", productImpl1.foobar());
-        Product productImpl2 = creator.orderProduct("productImpl2");
+        Product productImpl2 = creator.factoryMethod("productImpl2");
         Assert.assertEquals("foobar2", productImpl2.foobar());
     }
 }

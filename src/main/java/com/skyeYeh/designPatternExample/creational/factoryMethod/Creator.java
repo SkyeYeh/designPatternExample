@@ -6,22 +6,10 @@ package com.skyeYeh.designPatternExample.creational.factoryMethod;
  */
 public abstract class Creator {
     /**
-     * 抽象工廠方法。
+     * 抽象工廠方法建立產品。
      *
      * @param type 產品種類
      * @return 產品
      */
     protected abstract Product factoryMethod(String type);
-
-    /**
-     * 取得產品。
-     *
-     * @param type 產品種類
-     * @return 產品
-     */
-    public Product orderProduct(String type) {
-        Product product;
-        product = factoryMethod(type);
-        return product;
-    }
 }
