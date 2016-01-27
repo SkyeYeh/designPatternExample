@@ -20,8 +20,8 @@ public class AbstractFactoryTest {
 
     @Test
     public void testCreateProductA() throws Exception {
-        ProductA product1A = abstractFactoryImpl1.CreateProductA();
-        ProductA product2A = abstractFactoryImpl2.CreateProductA();
+        ProductA product1A = abstractFactoryImpl1.CreateProductA("productAImpl1");
+        ProductA product2A = abstractFactoryImpl2.CreateProductA("productAImpl2");
 
         Assert.assertEquals("foobarA1", product1A.foobarA());
         Assert.assertEquals("foobarA2", product2A.foobarA());
