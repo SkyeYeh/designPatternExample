@@ -1,5 +1,6 @@
 package com.skyeYeh.designPatternExample.behavioral.command;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,23 +20,26 @@ public class CommandTest {
         invoker = new Invoker();
         receiver1 = new Receiver1();
         receiver2 = new Receiver2();
+
+        command1 = new CommandImpl1(receiver1);
+        command2 = new CommandImpl2(receiver2);
     }
 
     @Test
     public void testExecute() throws Exception {
-        command1 = new CommandImpl1(receiver1);
-        command2 = new CommandImpl2(receiver2);
         invoker.setCommand(command1);
         invoker.setCommand(command2);
+
         invoker.execute();
+        Assert.assertEquals(2, invoker.commands.size());
     }
 
     @Test
     public void testUndo() throws Exception {
-        command1 = new CommandImpl1(receiver1);
-        command2 = new CommandImpl2(receiver2);
         invoker.setCommand(command1);
         invoker.setCommand(command2);
+
         invoker.undo();
+        Assert.assertEquals(2, invoker.commands.size());
     }
 }
