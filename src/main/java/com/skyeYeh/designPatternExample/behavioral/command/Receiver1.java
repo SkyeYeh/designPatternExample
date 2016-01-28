@@ -9,13 +9,13 @@ public class Receiver1 {
      * 執行動作。
      */
     public void action() {
-        System.out.println("Action.");
+        System.out.println("Action1.");
     }
 
     /**
      * 取消動作
      */
     public void undoAction() {
-        System.out.println("Undo action.");
+        System.out.println("Undo action1.");
     }
 }

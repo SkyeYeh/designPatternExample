@@ -10,19 +10,26 @@ import java.util.List;
 public class Invoker {
     List<Command> commands = new ArrayList<>();
 
+    /**
+     * 設定命令。
+     *
+     * @param command 命令
+     */
     public void setCommand(Command command) {
         commands.add(command);
     }
 
+    /**
+     * 依序執行動作。
+     */
     public void execute() {
-        for (Command command : commands) {
-            command.execute();
-        }
+        commands.forEach(Command::execute);
     }
 
+    /**
+     * 依序取消動作。
+     */
     public void undo() {
-        for (Command command : commands) {
-            command.undo();
-        }
+        commands.forEach(Command::undo);
     }
 }
