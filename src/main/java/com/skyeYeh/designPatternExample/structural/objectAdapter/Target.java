@@ -7,7 +7,6 @@ package com.skyeYeh.designPatternExample.structural.objectAdapter;
 public interface Target {
     /**
      * 請求。
-     *
      * @return 回傳值
      */
     public String request();
