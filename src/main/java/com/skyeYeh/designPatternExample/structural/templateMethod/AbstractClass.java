@@ -7,6 +7,7 @@ package com.skyeYeh.designPatternExample.structural.templateMethod;
 public abstract class AbstractClass {
     /**
      * 樣板方法。
+     * 為了防止次類別改變樣板方法中的演算法，可以將樣板方法宣告為 final。
      *
      * @return 字串
      */
