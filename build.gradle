@@ -1,6 +1,6 @@
-// SonarQube
 plugins {
-    id "org.sonarqube" version "1.2"
+    id "org.sonarqube" version "1.2" // SonarQube
+    id "net.saliman.cobertura" version "2.3.0" // Cobertura
 }
 
 group 'com.skyeYeh'
