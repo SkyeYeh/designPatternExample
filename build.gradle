@@ -1,3 +1,8 @@
+// SonarQube
+plugins {
+    id "org.sonarqube" version "1.2"
+}
+
 group 'com.skyeYeh'
 version '1.0-SNAPSHOT'
 
@@ -9,4 +14,8 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
 }
