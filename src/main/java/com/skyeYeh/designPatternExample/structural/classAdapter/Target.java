@@ -4,6 +4,7 @@ package com.skyeYeh.designPatternExample.structural.classAdapter;
  * Created by Skye on 2016/1/29.
  * 轉接器介面。
  */
+@FunctionalInterface
 public interface Target {
     /**
      * 請求。

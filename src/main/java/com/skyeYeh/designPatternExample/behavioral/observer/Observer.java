@@ -4,6 +4,7 @@ package com.skyeYeh.designPatternExample.behavioral.observer;
  * Created by Skye on 2016/1/25.
  * 觀察者介面。
  */
+@FunctionalInterface
 public interface Observer {
     /**
      * 當主題改變時呼叫。
