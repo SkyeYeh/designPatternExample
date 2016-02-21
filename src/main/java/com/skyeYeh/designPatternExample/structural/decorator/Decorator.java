@@ -10,5 +10,6 @@ public abstract class Decorator implements Component {
      *
      * @return 參數2
      */
+    @Override
     public abstract int methodB();
 }
