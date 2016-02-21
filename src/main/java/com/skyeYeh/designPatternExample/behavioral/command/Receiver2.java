@@ -1,21 +1,26 @@
 package com.skyeYeh.designPatternExample.behavioral.command;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  * Created by Skye on 2016/1/27.
  * 接收者。
  */
 public class Receiver2 {
+    private final Logger logger = Logger.getLogger(this.getClass().getName());
+
     /**
      * 執行動作。
      */
     public void action() {
-        System.out.println("Action2.");
+        logger.log(Level.INFO, "Action2.");
     }
 
     /**
      * 取消動作
      */
     public void undoAction() {
-        System.out.println("Undo action2.");
+        logger.log(Level.INFO, "Undo action2.");
     }
 }

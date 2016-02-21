@@ -2,12 +2,16 @@ package com.skyeYeh.designPatternExample.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Created by Skye on 2016/2/18.
  * 合成物件，定義元件的行為。
  */
 public class Composite extends Component {
+    private final Logger logger = Logger.getLogger(this.getClass().getName());
+
     // 子節點。
     List<Component> components = new ArrayList<>();
 
@@ -22,7 +26,7 @@ public class Composite extends Component {
      */
     @Override
     void operation() {
-        System.out.println(foobar);
+        logger.log(Level.INFO, foobar);
 
         components.forEach(Component::operation);
     }

@@ -1,10 +1,15 @@
 package com.skyeYeh.designPatternExample.structural.composite;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  * Created by Skye on 2016/2/18.
  * 葉節點，沒有子節點。
  */
 public class Leaf extends Component {
+    private final Logger logger = Logger.getLogger(this.getClass().getName());
+
     String foobar;
 
     public Leaf(String foobar) {
@@ -16,6 +21,6 @@ public class Leaf extends Component {
      */
     @Override
     void operation() {
-        System.out.println(foobar);
+        logger.log(Level.INFO, foobar);
     }
 }
