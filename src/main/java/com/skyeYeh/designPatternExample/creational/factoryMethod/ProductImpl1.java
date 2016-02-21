@@ -4,7 +4,7 @@ package com.skyeYeh.designPatternExample.creational.factoryMethod;
  * Created by Skye on 2016/1/26.
  * 產品實作。
  */
-public class ProductImpl1 extends Product {
+public class ProductImpl1 implements Product {
     /**
      * 產品方法實作。
      *

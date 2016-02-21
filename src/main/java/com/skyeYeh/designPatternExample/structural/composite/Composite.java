@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  * Created by Skye on 2016/2/18.
  * 合成物件，定義元件的行為。
  */
-public class Composite extends Component {
+public class Composite implements Component {
     private final Logger logger = Logger.getLogger(this.getClass().getName());
 
     // 子節點。
@@ -25,7 +25,7 @@ public class Composite extends Component {
      * 印出合成參數。
      */
     @Override
-    void operation() {
+    public void operation() {
         logger.log(Level.INFO, foobar);
 
         components.forEach(Component::operation);
@@ -37,7 +37,7 @@ public class Composite extends Component {
      * @param component 子節點
      */
     @Override
-    void add(Component component) {
+    public void add(Component component) {
         components.add(component);
     }
 
@@ -47,7 +47,7 @@ public class Composite extends Component {
      * @param component 子節點
      */
     @Override
-    void remove(Component component) {
+    public void remove(Component component) {
         components.remove(component);
     }
 
@@ -58,7 +58,7 @@ public class Composite extends Component {
      * @return 子節點
      */
     @Override
-    Component getChild(int index) {
+    public Component getChild(int index) {
         return components.get(index);
     }
 }

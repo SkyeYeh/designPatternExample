@@ -4,7 +4,7 @@ package com.skyeYeh.designPatternExample.structural.decorator;
  * Created by Skye on 2016/1/25.
  * 子類別實作。
  */
-public class ComponentImpl2 extends Component {
+public class ComponentImpl2 implements Component {
     /**
      * 子類別實作。
      *
