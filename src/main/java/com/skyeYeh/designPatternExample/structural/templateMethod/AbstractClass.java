@@ -5,6 +5,8 @@ package com.skyeYeh.designPatternExample.structural.templateMethod;
  * 抽象樣板方法。
  */
 public abstract class AbstractClass {
+    private String result;
+
     /**
      * 樣板方法。
      * 為了防止次類別改變樣板方法中的演算法，可以將樣板方法宣告為 final。
@@ -12,7 +14,7 @@ public abstract class AbstractClass {
      * @return 字串
      */
     final String templateMethod() {
-        String result = "";
+        result = "";
         result += primitiveOperation1();
         result += primitiveOperation2();
         return result;
