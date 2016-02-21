@@ -5,7 +5,9 @@ package com.skyeYeh.designPatternExample.structural.objectAdapter;
  * 被轉接者。
  */
 public class Adaptee {
+    private final String foobar = "foobar";
+
     public String specificRequest() {
-        return "foobar";
+        return foobar;
     }
 }
