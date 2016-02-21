@@ -5,9 +5,9 @@ package com.skyeYeh.designPatternExample.behavioral.observer;
  * 觀察者。
  */
 public class ObserverImpl1 implements Observer {
-    private Subject subject;
-    private String foobar1;
-    private String foobar2;
+    Subject subject;
+    String foobar1;
+    String foobar2;
 
     /**
      * 使用主題註冊觀察者。
