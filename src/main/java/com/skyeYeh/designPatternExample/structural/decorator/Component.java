@@ -4,6 +4,7 @@ package com.skyeYeh.designPatternExample.structural.decorator;
  * Created by Skye on 2016/1/25.
  * 抽象父類別。
  */
+@FunctionalInterface
 public interface Component {
     /**
      * 子類別實作。

@@ -4,6 +4,7 @@ package com.skyeYeh.designPatternExample.creational.simpleFactory;
  * Created by Skye on 2016/1/26.
  * 抽象產品。
  */
+@FunctionalInterface
 public interface Product {
     /**
      * 產品方法。
