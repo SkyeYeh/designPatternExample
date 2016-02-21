@@ -8,7 +8,7 @@ import java.util.List;
  * 主題物件。
  */
 public class Subject {
-    private List<Observer> observers = new ArrayList<Observer>();
+    private List<Observer> observers = new ArrayList<>();
     private int state;
 
     public void attach(Observer observer) {
