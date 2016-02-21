@@ -1,6 +1,7 @@
 package com.skyeYeh.designPatternExample.structural.iterator;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 /**
  * Created by Skye on 2016/2/2.
@@ -21,7 +22,7 @@ public class IteratorImpl implements Iterator {
      */
     @Override
     public boolean hasNext() {
-        return (position < strings.length && strings[position] != null);
+        return position < strings.length && strings[position] != null;
     }
 
     /**
@@ -31,6 +32,10 @@ public class IteratorImpl implements Iterator {
      */
     @Override
     public Object next() {
+        if (!hasNext()) {
+            throw new NoSuchElementException();
+        }
+
         String result = strings[position];
         position++;
         return result;
