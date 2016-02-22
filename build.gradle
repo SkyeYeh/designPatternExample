@@ -19,3 +19,13 @@ dependencies {
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
+
+// SonarQube
+sonarqube {
+    properties {
+        property "sonar.host.url", "http://192.168.99.100:9000"
+        // ----- Security (when 'sonar.forceAuthentication' is set to 'true')
+        property "sonar.login", "admin"
+        property "sonar.password", "admin"
+    }
+}
