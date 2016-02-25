@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.composite;
+package com.skyeyeh.designpatternexample.structural.composite;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

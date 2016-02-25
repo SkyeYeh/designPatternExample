@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.behavioral.command;
+package com.skyeyeh.designpatternexample.behavioral.command;
 
 import java.util.ArrayList;
 import java.util.List;

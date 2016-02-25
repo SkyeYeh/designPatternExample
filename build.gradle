@@ -3,7 +3,7 @@ plugins {
     id "net.saliman.cobertura" version "2.3.0" // Cobertura
 }
 
-group 'com.skyeYeh'
+group 'com.skyeyeh'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'

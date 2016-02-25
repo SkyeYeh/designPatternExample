@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.composite;
+package com.skyeyeh.designpatternexample.structural.composite;
 
 import org.junit.Assert;
 import org.junit.Before;

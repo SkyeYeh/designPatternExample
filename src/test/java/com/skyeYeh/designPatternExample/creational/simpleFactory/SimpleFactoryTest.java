@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.creational.simpleFactory;
+package com.skyeyeh.designpatternexample.creational.simpleFactory;
 
 import org.junit.Assert;
 import org.junit.Before;

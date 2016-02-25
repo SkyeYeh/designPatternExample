@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.strategy;
+package com.skyeyeh.designpatternexample.structural.strategy;
 
 /**
  * Created by Skye on 2016/2/2.

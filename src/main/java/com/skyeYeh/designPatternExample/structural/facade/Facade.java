@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.facade;
+package com.skyeyeh.designpatternexample.structural.facade;
 
 /**
  * Created by Skye on 2016/1/29.

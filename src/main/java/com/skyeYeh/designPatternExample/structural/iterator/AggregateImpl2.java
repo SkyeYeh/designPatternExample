@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.iterator;
+package com.skyeyeh.designpatternexample.structural.iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

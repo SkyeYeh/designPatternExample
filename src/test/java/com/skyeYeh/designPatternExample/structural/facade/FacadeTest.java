@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.facade;
+package com.skyeyeh.designpatternexample.structural.facade;
 
 import org.junit.Assert;
 import org.junit.Before;

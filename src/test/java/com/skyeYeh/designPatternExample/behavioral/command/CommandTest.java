@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.behavioral.command;
+package com.skyeyeh.designpatternexample.behavioral.command;
 
 import org.junit.Assert;
 import org.junit.Before;

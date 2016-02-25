@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.creational.factoryMethod;
+package com.skyeyeh.designpatternexample.creational.factoryMethod;
 
 /**
  * Created by Skye on 2016/1/26.

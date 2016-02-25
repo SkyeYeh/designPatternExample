@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.behavioral.observer;
+package com.skyeyeh.designpatternexample.behavioral.observer;
 
 /**
  * Created by Skye on 2016/1/25.

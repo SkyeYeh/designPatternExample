@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.composite;
+package com.skyeyeh.designpatternexample.structural.composite;
 
 /**
  * Created by Skye on 2016/2/18.

@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.structural.decorator;
+package com.skyeyeh.designpatternexample.structural.decorator;
 
 /**
  * Created by Skye on 2016/1/26.

@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.creational.singleton;
+package com.skyeyeh.designpatternexample.creational.singleton;
 
 import org.junit.Assert;
 import org.junit.Before;

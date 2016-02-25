@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.behavioral.command;
+package com.skyeyeh.designpatternexample.behavioral.command;
 
 /**
  * Created by Skye on 2016/1/27.

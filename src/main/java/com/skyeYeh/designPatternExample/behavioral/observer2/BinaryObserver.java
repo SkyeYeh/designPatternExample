@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.behavioral.observer2;
+package com.skyeyeh.designpatternexample.behavioral.observer2;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

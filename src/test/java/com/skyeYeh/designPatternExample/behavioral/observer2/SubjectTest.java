@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.behavioral.observer2;
+package com.skyeyeh.designpatternexample.behavioral.observer2;
 
 import org.junit.After;
 import org.junit.Assert;

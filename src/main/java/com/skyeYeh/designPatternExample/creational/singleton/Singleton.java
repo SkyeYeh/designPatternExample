@@ -1,4 +1,4 @@
-package com.skyeYeh.designPatternExample.creational.singleton;
+package com.skyeyeh.designpatternexample.creational.singleton;
 
 /**
  * Created by Skye on 2016/1/27.
