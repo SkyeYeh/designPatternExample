@@ -8,19 +8,19 @@ import java.util.logging.Logger;
  * 接收者。
  */
 public class Receiver2 {
-    private final Logger logger = Logger.getLogger(this.getClass().getName());
+    private static final Logger LOGGER = Logger.getLogger(Receiver2.class.getName());
 
     /**
      * 執行動作。
      */
     public void action() {
-        logger.log(Level.INFO, "Action2.");
+        LOGGER.log(Level.INFO, "Action2.");
     }
 
     /**
      * 取消動作
      */
     public void undoAction() {
-        logger.log(Level.INFO, "Undo action2.");
+        LOGGER.log(Level.INFO, "Undo action2.");
     }
 }

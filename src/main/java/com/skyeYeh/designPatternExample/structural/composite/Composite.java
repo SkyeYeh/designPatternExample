@@ -10,7 +10,7 @@ import java.util.logging.Logger;
  * 合成物件，定義元件的行為。
  */
 public class Composite implements Component {
-    private final Logger logger = Logger.getLogger(this.getClass().getName());
+    private static final Logger LOGGER = Logger.getLogger(Composite.class.getName());
 
     // 子節點。
     List<Component> components = new ArrayList<>();
@@ -26,7 +26,7 @@ public class Composite implements Component {
      */
     @Override
     public void operation() {
-        logger.log(Level.INFO, foobar);
+        LOGGER.log(Level.INFO, foobar);
 
         components.forEach(Component::operation);
     }

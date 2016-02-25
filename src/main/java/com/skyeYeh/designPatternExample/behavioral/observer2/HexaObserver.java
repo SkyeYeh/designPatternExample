@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  * 觀察者。
  */
 public class HexaObserver extends Observer {
-    private final Logger logger = Logger.getLogger(this.getClass().getName());
+    private static final Logger LOGGER = Logger.getLogger(HexaObserver.class.getName());
 
     public HexaObserver(Subject subject) {
         this.subject = subject;
@@ -17,6 +17,6 @@ public class HexaObserver extends Observer {
 
     @Override
     public void update() {
-        logger.log(Level.INFO, "HexaObserver: " + Integer.toHexString(subject.getState()));
+        LOGGER.log(Level.INFO, "HexaObserver: " + Integer.toHexString(subject.getState()));
     }
 }

@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  * 葉節點，沒有子節點。
  */
 public class Leaf implements Component {
-    private final Logger logger = Logger.getLogger(this.getClass().getName());
+    private static final Logger LOGGER = Logger.getLogger(Leaf.class.getName());
 
     String foobar;
 
@@ -21,6 +21,6 @@ public class Leaf implements Component {
      */
     @Override
     public void operation() {
-        logger.log(Level.INFO, foobar);
+        LOGGER.log(Level.INFO, foobar);
     }
 }

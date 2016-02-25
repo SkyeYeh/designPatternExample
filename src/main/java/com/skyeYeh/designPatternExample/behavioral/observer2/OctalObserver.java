@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  * 觀察者。
  */
 public class OctalObserver extends Observer {
-    private final Logger logger = Logger.getLogger(this.getClass().getName());
+    private static final Logger LOGGER = Logger.getLogger(OctalObserver.class.getName());
 
     public OctalObserver(Subject subject) {
         this.subject = subject;
@@ -17,6 +17,6 @@ public class OctalObserver extends Observer {
 
     @Override
     public void update() {
-        logger.log(Level.INFO, "OctalObserver: " + Integer.toOctalString(subject.getState()));
+        LOGGER.log(Level.INFO, "OctalObserver: " + Integer.toOctalString(subject.getState()));
     }
 }

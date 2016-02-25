@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  * 觀察者。
  */
 public class BinaryObserver extends Observer {
-    private final Logger logger = Logger.getLogger(this.getClass().getName());
+    private static final Logger LOGGER = Logger.getLogger(BinaryObserver.class.getName());
 
     public BinaryObserver(Subject subject) {
         this.subject = subject;
@@ -17,6 +17,6 @@ public class BinaryObserver extends Observer {
 
     @Override
     public void update() {
-        logger.log(Level.INFO, "BinaryObserver: " + Integer.toBinaryString(subject.getState()));
+        LOGGER.log(Level.INFO, "BinaryObserver: " + Integer.toBinaryString(subject.getState()));
     }
 }
