@@ -1,4 +1,4 @@
-package com.skyeyeh.designpatternexample.structural.objectAdapter;
+package com.skyeyeh.designpatternexample.structural.objectadapter;
 
 /**
  * Created by Skye on 2016/1/29.

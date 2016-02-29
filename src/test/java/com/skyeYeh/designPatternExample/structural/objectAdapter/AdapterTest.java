@@ -1,4 +1,4 @@
-package com.skyeyeh.designpatternexample.structural.objectAdapter;
+package com.skyeyeh.designpatternexample.structural.objectadapter;
 
 import org.junit.Assert;
 import org.junit.Before;

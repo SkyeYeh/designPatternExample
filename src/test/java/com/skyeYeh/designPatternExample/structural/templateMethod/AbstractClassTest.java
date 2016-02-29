@@ -1,4 +1,4 @@
-package com.skyeyeh.designpatternexample.structural.templateMethod;
+package com.skyeyeh.designpatternexample.structural.templatemethod;
 
 import org.junit.Assert;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.skyeyeh.designpatternexample.creational.simpleFactory;
+package com.skyeyeh.designpatternexample.creational.simplefactory;
 
 /**
  * Created by Skye on 2016/1/26.

@@ -1,4 +1,4 @@
-package com.skyeyeh.designpatternexample.structural.templateMethod;
+package com.skyeyeh.designpatternexample.structural.templatemethod;
 
 /**
  * Created by Skye on 2016/2/2.
