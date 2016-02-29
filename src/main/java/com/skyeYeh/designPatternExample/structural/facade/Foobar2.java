@@ -5,7 +5,7 @@ package com.skyeyeh.designpatternexample.structural.facade;
  * 次系統。
  */
 public class Foobar2 {
-    private final String s = "foobar2";
+    private static final String S = "foobar2";
 
     /**
      * 次系統方法。
@@ -13,6 +13,6 @@ public class Foobar2 {
      * @return 回傳值
      */
     public String foobar2() {
-        return s;
+        return S;
     }
 }
