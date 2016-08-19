@@ -13,5 +13,5 @@ public interface Aggregate {
      *
      * @return 反覆器
      */
-    Iterator createIterator();
+    Iterator<String> createIterator();
 }

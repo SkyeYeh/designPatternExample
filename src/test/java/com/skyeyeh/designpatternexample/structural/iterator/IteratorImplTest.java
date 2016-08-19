@@ -13,8 +13,8 @@ import java.util.Iterator;
 public class IteratorImplTest {
     Aggregate aggregate1;
     Aggregate aggregate2;
-    Iterator iterator1;
-    Iterator iterator2;
+    Iterator<String> iterator1;
+    Iterator<String> iterator2;
 
     @Before
     public void setUp() throws Exception {

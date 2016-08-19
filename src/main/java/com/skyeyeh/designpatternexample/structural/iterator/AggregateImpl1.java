@@ -19,7 +19,7 @@ public class AggregateImpl1 implements Aggregate {
      * @return 反覆器
      */
     @Override
-    public Iterator createIterator() {
+    public Iterator<String> createIterator() {
         return new IteratorImpl(strings);
     }
 }

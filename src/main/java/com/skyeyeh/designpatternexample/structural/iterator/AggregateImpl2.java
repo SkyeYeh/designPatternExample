@@ -24,7 +24,7 @@ public class AggregateImpl2 implements Aggregate {
      * @return 反覆器
      */
     @Override
-    public Iterator createIterator() {
+    public Iterator<String> createIterator() {
         return stringList.iterator();
     }
 }

@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
  * Created by Skye on 2016/2/2.
  * 實作反覆器。
  */
-public class IteratorImpl implements Iterator {
+public class IteratorImpl implements Iterator<String> {
     String[] strings;
     int position = 0;
 
@@ -31,7 +31,7 @@ public class IteratorImpl implements Iterator {
      * @return 下一個元素
      */
     @Override
-    public Object next() {
+    public String next() {
         if (!hasNext()) {
             throw new NoSuchElementException();
         }
