@@ -4,6 +4,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.skyeyeh.designpatternexample.structural.templatemethod.AbstractClass;
+import com.skyeyeh.designpatternexample.structural.templatemethod.AbstractClassImpl1;
+import com.skyeyeh.designpatternexample.structural.templatemethod.AbstractClassImpl2;
+
 /**
  * Created by Skye on 2016/2/2.
  * 樣板方法模式，將一個演算法的骨架定義在一個方法中，而演算法本身會用到的一些方法，則是定義再次類別中。樣板方法讓次類別在不改變演算法架構的情況下，重新定義演算法中的某些步驟。

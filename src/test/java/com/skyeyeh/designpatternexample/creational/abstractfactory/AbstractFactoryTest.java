@@ -4,6 +4,12 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.skyeyeh.designpatternexample.creational.abstractfactory.AbstractFactory;
+import com.skyeyeh.designpatternexample.creational.abstractfactory.AbstractFactoryImpl1;
+import com.skyeyeh.designpatternexample.creational.abstractfactory.AbstractFactoryImpl2;
+import com.skyeyeh.designpatternexample.creational.abstractfactory.ProductA;
+import com.skyeyeh.designpatternexample.creational.abstractfactory.ProductB;
+
 /**
  * Created by Skye on 2016/1/26.
  * 抽象工廠模式，提供了一個介面，建立相關或相依物件之家族，而不需要明確指定具象類別。

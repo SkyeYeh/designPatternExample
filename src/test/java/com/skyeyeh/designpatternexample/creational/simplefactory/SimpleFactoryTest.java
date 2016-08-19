@@ -4,6 +4,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.skyeyeh.designpatternexample.creational.simplefactory.Product;
+import com.skyeyeh.designpatternexample.creational.simplefactory.SimpleFactory;
+
 /**
  * Created by Skye on 2016/1/26.
  * 簡單工廠。

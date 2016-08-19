@@ -4,6 +4,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.skyeyeh.designpatternexample.structural.objectadapter.Adaptee;
+import com.skyeyeh.designpatternexample.structural.objectadapter.Adapter;
+import com.skyeyeh.designpatternexample.structural.objectadapter.Target;
+
 /**
  * Created by Skye on 2016/1/29.
  * 物件轉接器模式，將一個類別的介面，轉換成另一個介面以供客戶使用。轉換器讓原本介面不相容的類別可以合作無間。

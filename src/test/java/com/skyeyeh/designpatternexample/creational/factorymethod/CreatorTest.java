@@ -4,6 +4,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.skyeyeh.designpatternexample.creational.factorymethod.Creator;
+import com.skyeyeh.designpatternexample.creational.factorymethod.CreatorImpl;
+import com.skyeyeh.designpatternexample.creational.factorymethod.Product;
+
 /**
  * Created by Skye on 2016/1/26.
  * 工廠方法模式，定義了一個建立物件的介面，但由次類別決定要實體化的類別為何者。工廠方法讓類別把實體化的動作，交由次類別進行。
